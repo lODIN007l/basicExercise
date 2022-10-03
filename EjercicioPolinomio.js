@@ -17,7 +17,7 @@ var res ;
 funcionVal=(dato)=>{
  try{
     if (typeof(dato) =='number' ){
-		  console.log('dato numerico')
+		  // console.log('dato numerico')
       return true;
     	
   }
@@ -31,11 +31,10 @@ funcionVal=(dato)=>{
 // caculo de las raices
 calcularRaices=(a,b,c)=>{
   delta = (parseInt(b) * parseInt(b)) - (((4 * parseInt(a) )* parseInt(c))); 
-  // console.log("valor de dato");
-  console.log(delta);
+  // console.log(delta);
   if (delta < 0)  
   {  
-   console.log("Sin soluciones"); 
+   console.log("Sin soluciones,Numero complejo"); 
   }  
   else  
   {  
@@ -47,18 +46,9 @@ calcularRaices=(a,b,c)=>{
      { 
             console.log("Solución n.°1: " + (-b +  Math.sqrt(delta))/(2*a)) ;
        			console.log("Solución n.°2: " + (-b -  Math.sqrt(delta))/(2*a)) ;
-       // 
-         		// console.log("Solución n.°2: "  (b*b +  Math.sqrt(delta))/2*(a)) ;
      }
   }
 }
-
-
-
-
-
-
-
 
 funcionPolinomio=(a,b,c)=>{
 
@@ -72,7 +62,7 @@ funcionPolinomio=(a,b,c)=>{
    (funcionVal(c)== true)?
       cCorrect=c
    	:console.log('dato invalido,revise los datos ingresado');
-   // ,cCorrect
+  
    if ( aCorrect !=0 ){
      				// proceso de cacular 
      				calcularRaices(aCorrect,bCorrect,cCorrect);
