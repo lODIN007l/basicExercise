@@ -1,4 +1,4 @@
-#VERIFICACION Y VALIDACION DE SOFTWARE 
+# VERIFICACION Y VALIDACION DE SOFTWARE 
 ## Resolucion de un polinomio que determina  las raices de un polinimio 
 
 Codigo : EjercicioPolinomio.js
