@@ -24,7 +24,10 @@ funcionPolinomio(1,3,2);
 //5. a=5 b=-20 c=15 
 funcionPolinomio(5,-20,15);
 
-
+## Pasos para ejecutar 
+1. npm i 
+2. jest 
+3 Revisar los casos de prueba en "text.js"
 
 ## Integrantes : 
     Maria Jose Tapia 6573
