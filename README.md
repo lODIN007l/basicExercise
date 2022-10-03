@@ -1,11 +1,30 @@
-# basicExercise
+#VERIFICACION Y VALIDACION DE SOFTWARE 
+## Resolucion de un polinomio que determina  las raices de un polinimio 
 
-## Resolucion de un ejerccio que determine el tipo de triangulo en base a los elementos ingresados 
+Codigo : EjercicioPolinomio.js
 
-- Dentro de los parametros establecidos se controla : 
-    ingreso de caracteres o datos iguales o menores a "0"
-    Determinacion que el dato ingresado sea un numero 
-    Respuesta en base a lo que cacule sea distinto a un "Null"
+Matriz : pdf adjunto 
+
+
+### Prueba
+
+// 1.el valor de A debe ser distinto de cero 
+funcionPolinomio(0,2,3);
+
+// 2.el valor ingresado no es un numero 
+funcionPolinomio("a",2,3);
+
+// 3. el discriminante negativo 
+funcionPolinomio(1,1,1);
+// delta negativo 
+
+//4. a=1 b=3 c=2 
+funcionPolinomio(1,3,2);
+
+//4. a=5 b=-20 c=15 
+funcionPolinomio(5,-20,15);
+
+
 
 ## Integrantes : 
     Maria Jose Tapia 6573
