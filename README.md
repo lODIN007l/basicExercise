@@ -21,7 +21,7 @@ funcionPolinomio(1,1,1);
 //4. a=1 b=3 c=2 
 funcionPolinomio(1,3,2);
 
-//4. a=5 b=-20 c=15 
+//5. a=5 b=-20 c=15 
 funcionPolinomio(5,-20,15);
 
 
