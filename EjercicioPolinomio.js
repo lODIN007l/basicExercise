@@ -46,7 +46,7 @@ calcularRaices=(a,b,c)=>{
      else 
      { 
             console.log("Solución n.°1: " + (-b +  Math.sqrt(delta))/(2*a)) ;
-       			console.log("Solución n.°2: " + (b +  Math.sqrt(delta))/(2*a)) ;
+       			console.log("Solución n.°2: " + (-b -  Math.sqrt(delta))/(2*a)) ;
        // 
          		// console.log("Solución n.°2: "  (b*b +  Math.sqrt(delta))/2*(a)) ;
      }
@@ -96,4 +96,4 @@ funcionPolinomio=(a,b,c)=>{
    return false;
  } 
 }
-funcionPolinomio(1,1,1);
+funcionPolinomio(1,2,-8);
