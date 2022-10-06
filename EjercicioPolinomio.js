@@ -4,7 +4,7 @@ var b =0;
 var c =0;
 // 
 var aCorrect=0 ;
-var aCorrect =0;
+var bCorrect =0;
 var cCorrect =0;
 var delta;
 var res ;
@@ -17,8 +17,12 @@ var res ;
 funcionVal=(dato)=>{
  try{
     if (typeof(dato) =='number' ){
-		  // console.log('dato numerico')
-      return true;
+		if(dato <=100){
+           // console.log('dato numerico')
+         return true;
+      }else {
+         console.log('revisar los datos ingresados')
+      }
     	
   }
    // return true ;
@@ -76,7 +80,6 @@ funcionPolinomio=(a,b,c)=>{
    console.log(aCorrect)
   	// Proceso para calcular
    
-
 
    
      // return true ;
