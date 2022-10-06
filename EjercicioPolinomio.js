@@ -18,7 +18,8 @@ funcionVal=(dato)=>{
  try{
     if (typeof(dato) =='number' ){
 		if(dato <=100){
-           // console.log('dato numerico')
+           console.log('dato valido ')
+
          return true;
       }else {
          console.log('revisar los datos ingresados')

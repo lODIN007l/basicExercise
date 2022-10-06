@@ -39,8 +39,14 @@ test("a=5 b=-20 c=15  ", () => {
 test("no se permitira datos mayores a 100  ", () => {
     expect(funcionPolinomio(101,3,2));
 });
-// por funcion 
+// por funcion  planteada 
 test("funcion validacion  ", () => {
-    expect(funcionVal(101));
+    expect(funcionVal(100));
 });
+
+//funcion cacular |numero complejo 
+test("funcion validacion  ", () => {
+    expect(calcularRaices(2,-1,4));
+});
+
 
