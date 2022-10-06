@@ -25,7 +25,9 @@ funcionVal=(dato)=>{
          console.log('revisar los datos ingresados')
       }
     	
-  }
+  }else[
+   console.log('dato no numerico')
+  ]
    // return true ;
   
  }catch(error){

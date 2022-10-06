@@ -41,12 +41,12 @@ test("no se permitira datos mayores a 100  ", () => {
 });
 // por funcion  planteada 
 test("funcion validacion  ", () => {
-    expect(funcionVal(100));
+    expect(funcionVal("/"));
 });
 
 //funcion cacular |numero complejo 
-test("funcion validacion  ", () => {
-    expect(calcularRaices(2,-1,4));
-});
+// test("funcion validacion  ", () => {
+//     expect(calcularRaices(2,-1,4));
+// });
 
 
