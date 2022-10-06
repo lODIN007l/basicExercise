@@ -44,9 +44,9 @@ test("funcion validacion  ", () => {
     expect(funcionVal("/"));
 });
 
-//funcion cacular |numero complejo 
-// test("funcion validacion  ", () => {
-//     expect(calcularRaices(2,-1,4));
-// });
+// funcion cacular |numero complejo 
+test("funcion validacion  ", () => {
+    expect(calcularRaices(2,-1,4));
+});
 
 
