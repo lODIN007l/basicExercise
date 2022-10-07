@@ -39,7 +39,10 @@ const docPrincipal = require("./EjercicioPolinomio");
 // test("no se permitira datos mayores a 100  ", () => {
 //     expect(funcionPolinomio(101,3,2));
 // });
+
+
 // por funcion  planteada 
+describe("Funcionalidad 1 : El programa permite el ingreso de datos de forma correcta.",() => {
 test("funcion validacion  ", () => {
     expect(funcionVal("/")).toBe(false);
 });
@@ -47,6 +50,7 @@ test("funcion validacion  ", () => {
     expect(funcionVal(3)).toBe(true);
 });
 
+});
 // funcion cacular |numero complejo 
 // test("funcion validacion  ", () => {
 //     expect(calcularRaices(2,-1,4));
