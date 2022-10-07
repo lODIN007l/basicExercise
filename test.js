@@ -53,3 +53,11 @@ test("funcion validacion  ", () => {
 // });
 
 
+// describe("funcion calcular raices", () => {
+//     test("funcion validacion  ", () => {
+//         expect(calcularRaices(2,-1,4)).toBe(3);
+//     });
+//     test("funcion validacion  ", () => {
+//         expect(calcularRaices(2,1,4)).toBe(3);
+//     });
+// });
