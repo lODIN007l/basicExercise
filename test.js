@@ -25,9 +25,9 @@ const docPrincipal = require("./EjercicioPolinomio");
 
 // //4. a=1 b=3 c=2 
 // raices complejas 
-test("a=1 b=1 c=1  ", () => {
-    expect(funcionPolinomio(52,-5,3));
-});
+// test("a=1 b=1 c=1  ", () => {
+//     expect(funcionPolinomio(52,-5,3));
+// });
 
 // //5. a=5 b=-20 c=15 
 
@@ -56,12 +56,12 @@ test("a=1 b=1 c=1  ", () => {
 //     expect(calcularRaices(2,-1,4));
 // });
 
-
-// describe("funcion calcular raices", () => {
-//     test("funcion validacion  ", () => {
-//         expect(calcularRaices(2,-1,4)).toBe(3);
-//     });
-//     test("funcion validacion  ", () => {
-//         expect(calcularRaices(2,1,4)).toBe(3);
-//     });
-// });
+//determinante negativo 
+describe("funcion calcular raices", () => {
+    test("funcion validacion  ", () => {
+        expect(calcularRaices(2,-1,4));
+    });
+    test("funcion validacion  ", () => {
+        expect(calcularRaices(2,5,3));
+    });
+});
