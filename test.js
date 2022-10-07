@@ -25,9 +25,9 @@ const docPrincipal = require("./EjercicioPolinomio");
 
 // //4. a=1 b=3 c=2 
 
-// test("a=1 b=3 c=2  ", () => {
-//     expect(funcionPolinomio(1,3,2));
-// });
+test("a=1 b=1 c=1  ", () => {
+    expect(funcionPolinomio(2,5,3));
+});
 
 // //5. a=5 b=-20 c=15 
 
@@ -42,15 +42,15 @@ const docPrincipal = require("./EjercicioPolinomio");
 
 
 // por funcion  planteada 
-describe("Funcionalidad 1 : El programa permite el ingreso de datos de forma correcta.",() => {
-test("funcion validacion  ", () => {
-    expect(funcionVal("/")).toBe(false);
-});
-test("funcion validacion  ", () => {
-    expect(funcionVal(3)).toBe(true);
-});
+// describe("Funcionalidad 1 : El programa permite el ingreso de datos de forma correcta.",() => {
+// test("funcion validacion  ", () => {
+//     expect(funcionVal("/")).toBe(false);
+// });
+// test("funcion validacion  ", () => {
+//     expect(funcionVal(3)).toBe(true);
+// });
 
-});
+// });
 // funcion cacular |numero complejo 
 // test("funcion validacion  ", () => {
 //     expect(calcularRaices(2,-1,4));

@@ -46,7 +46,20 @@ calcularRaices=(a,b,c)=>{
   // console.log(delta);
   if (delta < 0)  
   {  
-   console.log("Sin soluciones,Numero complejo"); 
+   console.log("Numero complejo"); 
+   //calcular raices complejas 
+
+        
+   
+   let realPart = (-b / (2 * a)).toFixed(2);
+   let imagPart = (Math.sqrt(-delta) / (2 * a)).toFixed(2);
+
+   // result
+   console.log(
+   `Las raices complejas son  ${realPart} + ${imagPart}i y ${realPart} - ${imagPart}i`
+ );
+
+
   }  
   else  
   {  
@@ -85,7 +98,7 @@ funcionPolinomio=(a,b,c)=>{
       console.log('ingrese un valor diferente de 0')
     }
       // return false
-   console.log(aCorrect)
+   // console.log(aCorrect)
   	// Proceso para calcular
    
 
