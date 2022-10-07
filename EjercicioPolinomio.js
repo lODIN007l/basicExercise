@@ -51,12 +51,12 @@ calcularRaices=(a,b,c)=>{
 
         
    
-   let realPart = (-b / (2 * a)).toFixed(2);
-   let imagPart = (Math.sqrt(-delta) / (2 * a)).toFixed(2);
+   let parteReal = (-b / (2 * a)).toFixed(2);
+   let parteImaginaria = (Math.sqrt(-delta) / (2 * a)).toFixed(2);
 
    // result
    console.log(
-   `Las raices complejas son  ${realPart} + ${imagPart}i y ${realPart} - ${imagPart}i`
+   `Las raices complejas son  ${parteReal} + ${parteImaginaria}i y ${parteReal} - ${parteImaginaria}i`
  );
 
 

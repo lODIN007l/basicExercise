@@ -24,9 +24,9 @@ const docPrincipal = require("./EjercicioPolinomio");
 // // delta negativo 
 
 // //4. a=1 b=3 c=2 
-
+// raices complejas 
 test("a=1 b=1 c=1  ", () => {
-    expect(funcionPolinomio(2,5,3));
+    expect(funcionPolinomio(52,-5,3));
 });
 
 // //5. a=5 b=-20 c=15 
